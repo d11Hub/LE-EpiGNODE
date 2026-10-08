@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or datasets, please cite this repository."
+title: "LE-EpiGNODE"
+type: software
+authors:
+  - family-names: Duan
+    given-names: Jinyi
+  - family-names: Tang
+    given-names: Biao
+abstract: "Source code, processed datasets, model checkpoints, and synthetic data generators for LE-EpiGNODE."

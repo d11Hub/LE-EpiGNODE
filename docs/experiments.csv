@@ -1,0 +1,18 @@
+experiment_id,kind,state_shape,date_start,date_end,training_days,reported_horizons_days,random_seed,data_directory,results_directory,training_epochs
+eulerian_BRGM,synthetic,201x4x4,day 0,day 200,45,7;28;84;140,2,data/synthetic/eulerian_BRGM,results/synthetic/eulerian_BRGM,399
+eulerian_CRGM,synthetic,201x4x4,day 0,day 200,45,7;28;84;140,2,data/synthetic/eulerian_CRGM,results/synthetic/eulerian_CRGM,257
+lagrangian_BMCM,synthetic,201x4x4,day 0,day 200,50,7;28;84;140,5,data/synthetic/lagrangian_BMCM,results/synthetic/lagrangian_BMCM,300
+lagrangian_IACM,synthetic,201x4x4,day 0,day 200,50,7;28;84;140,5,data/synthetic/lagrangian_IACM,results/synthetic/lagrangian_IACM,1040
+lagrangian_NMCM,synthetic,201x4x4,day 0,day 200,50,7;28;84;140,9,data/synthetic/lagrangian_NMCM,results/synthetic/lagrangian_NMCM,154
+lagrangian_TDCM,synthetic,201x4x4,day 0,day 200,50,7;28;84;140,5,data/synthetic/lagrangian_TDCM,results/synthetic/lagrangian_TDCM,1355
+multiscale_BMCM_BRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,3,data/synthetic/multiscale_BMCM_BRGM,results/synthetic/multiscale_BMCM_BRGM,130
+multiscale_BMCM_CRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,3,data/synthetic/multiscale_BMCM_CRGM,results/synthetic/multiscale_BMCM_CRGM,81
+multiscale_IACM_BRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,3,data/synthetic/multiscale_IACM_BRGM,results/synthetic/multiscale_IACM_BRGM,152
+multiscale_IACM_CRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,3,data/synthetic/multiscale_IACM_CRGM,results/synthetic/multiscale_IACM_CRGM,55
+multiscale_NMCM_BRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,5,data/synthetic/multiscale_NMCM_BRGM,results/synthetic/multiscale_NMCM_BRGM,58
+multiscale_NMCM_CRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,5,data/synthetic/multiscale_NMCM_CRGM,results/synthetic/multiscale_NMCM_CRGM,29
+multiscale_TDCM_BRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,3,data/synthetic/multiscale_TDCM_BRGM,results/synthetic/multiscale_TDCM_BRGM,224
+multiscale_TDCM_CRGM,synthetic,201x16x4,day 0,day 200,56,7;28;84;140,10,data/synthetic/multiscale_TDCM_CRGM,results/synthetic/multiscale_TDCM_CRGM,20
+hubei,real,41x3x5,2020/1/16,2020/2/25,15,7;14;26,9,data/real/hubei,results/real/hubei,414
+ontario,real,92x4x5,2021/11/28,2022/2/27,25,7;14;35;67,3,data/real/ontario,results/real/ontario,360
+spain,real,113x12x5,2020/3/1,2020/6/21,20,7;14;49;93,8,data/real/spain,results/real/spain,98

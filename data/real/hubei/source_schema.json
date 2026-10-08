@@ -1,0 +1,23 @@
+{
+  "city_suffix": "市",
+  "date_column": "日期",
+  "time_column": "时间",
+  "total_column": "合计",
+  "sum_column": "总计",
+  "city_aliases": {
+    "武汉市": "Wuhan",
+    "武汉": "Wuhan",
+    "孝感市": "Xiaogan",
+    "孝感": "Xiaogan",
+    "黄冈市": "Huanggang",
+    "黄冈": "Huanggang"
+  },
+  "selected_cities": "武汉市,孝感市,黄冈市",
+  "distance_sheet": "距离矩阵_km",
+  "case_file": "湖北各城市每日新增_平滑_20200116_20200225.xlsx",
+  "population_file": "城市总人口.xlsx",
+  "distance_file": "湖北16城市距离矩阵_直线距离.xlsx",
+  "city_separator_pattern": "[，,;；\\s]+",
+  "region_separator_test": "[,，;；]",
+  "region_separator_pattern": "[,，;；]+"
+}

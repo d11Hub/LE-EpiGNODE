@@ -1,0 +1,6 @@
+name: DL
+channels:
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pip=24.2

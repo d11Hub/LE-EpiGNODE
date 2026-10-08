@@ -1,0 +1,49 @@
+dataset: Dataset_LE_1City_4Age
+num_cities: 1
+num_ages: 4
+training_time: 25
+ode_rtol: 1.0e-05
+ode_atol: 1.0e-08
+random_seed: 3
+gl_num_layers: 3
+gl_hidden_dim: 64
+c_hidden_dim: 6
+re_factor: 1.0e-05
+gamma:
+- 0.23199904
+- 0.4099
+- 0.195437
+- 0.09723584
+sigma:
+- 0.2770083102493075
+- 0.2770083102493075
+- 0.2770083102493075
+- 0.2770083102493075
+pop_ref: 1000000.0
+mob_hidden_dim: 128
+mob_num_layers: 4
+mob_ckpt_path: ''
+case_excel: Ontario_data_20211115_20220301.xlsx
+case_sheet: SmoothedData
+date_start: '2021-11-28'
+date_end: '2022-02-27'
+contact_excel: Ontario_grouped_contact_matrix.xlsx
+contact_sheet: GroupedContactMatrix
+pop_sheet: GroupPopulation
+case_multiplier: 1.0
+manual_S0:
+- 78561.0
+- 224318.0
+- 136644.0
+- 83494.125
+manual_E0:
+- 803.337
+- 1609.0
+- 934.4
+- 744.0
+manual_I0:
+- 606.723
+- 1787.0
+- 704.8
+- 280.0
+manual_R0: null
