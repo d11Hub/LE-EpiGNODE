@@ -1,0 +1,5 @@
+{
+  "node_order": "city-major, then age",
+  "cities": ["Wuhan", "Xiaogan", "Huanggang"],
+  "ages": ["All ages"]
+}

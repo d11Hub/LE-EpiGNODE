@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+training_runs/
+manual_runs/
+generated_data/
